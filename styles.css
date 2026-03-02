@@ -910,6 +910,12 @@ thead .highlight-col {
   margin: 0 auto 12px;
 }
 
+.creator-avatar-photo {
+  background: none;
+  object-fit: cover;
+  display: block;
+}
+
 .creator-profile h3 {
   font-size: 1.1rem;
   margin-bottom: 12px;
