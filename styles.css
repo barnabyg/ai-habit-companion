@@ -897,8 +897,8 @@ thead .highlight-col {
 }
 
 .creator-avatar {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   background: linear-gradient(135deg, #FF6B6B, #FFA726);
   color: #fff;
@@ -918,6 +918,15 @@ thead .highlight-col {
 
 .creator-profile h3 {
   font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.creator-role {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #888;
+  font-style: italic;
+  letter-spacing: 0.02em;
   margin-bottom: 12px;
 }
 
