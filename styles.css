@@ -642,6 +642,16 @@ button {
   margin-bottom: 12px;
 }
 
+.step-icon-or {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #999;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 4px;
+}
+
 .journey-step h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
@@ -894,11 +904,18 @@ thead .highlight-col {
 
 .creator-profile {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.creator-profile .btn {
+  margin-top: auto;
 }
 
 .creator-avatar {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   background: linear-gradient(135deg, #FF6B6B, #FFA726);
   color: #fff;
@@ -910,8 +927,22 @@ thead .highlight-col {
   margin: 0 auto 12px;
 }
 
+.creator-avatar-photo {
+  background: none;
+  object-fit: cover;
+  display: block;
+}
+
 .creator-profile h3 {
   font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.creator-role {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #888;
+  letter-spacing: 0.02em;
   margin-bottom: 12px;
 }
 
