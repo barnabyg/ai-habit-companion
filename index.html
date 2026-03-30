@@ -191,8 +191,7 @@
   <!-- Announcement Banner -->
   <div class="announcement-bar" id="announcementBar">
     <span class="announcement-pill">💡  Open Blueprint</span>
-    <span class="announcement-text">We've defined the algorithm, the AI experience design, and the full philosophy behind adaptive habit companions — and we're releasing it all, freely.</span>
-    <a href="#open-concept" class="announcement-link">Here's why ↓</a>
+    <span class="announcement-text">We've defined the algorithm, AI experience design, and philosophy behind adaptive habit companions, and we're releasing it here. <a href="#open-concept" class="announcement-link">Here's why ↓</a></span>
     <button class="announcement-close" id="announcementClose" aria-label="Dismiss announcement">&times;</button>
   </div>
 
@@ -202,11 +201,17 @@
   <!-- Sticky Navigation -->
   <header class="nav" id="nav">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo">AI Habit Companion</a>
+      <a href="#hero" class="nav-logo">
+        <span class="nav-logo-mark" aria-hidden="true"></span>
+        AI Habit Companion
+      </a>
       <nav class="nav-links" id="navLinks">
         <a href="#problem">Problem</a>
         <a href="#solution">Solution</a>
         <a href="#how-it-works">How It Works</a>
+        <a href="#different">Our Beliefs</a>
+        <a href="#companions">Companions</a>
+        <a href="#creators">Creators</a>
         <a href="#connect">Connect</a>
       </nav>
       <button class="btn btn-small btn-share" id="navShareBtn">Share This Project</button>
@@ -514,18 +519,106 @@
         </div>
         <div class="beliefs-grid">
           <div class="belief-card animate-in">
+            <div class="belief-icon">
+              <!-- Winding river: continuous flow, no broken state -->
+              <svg width="52" height="68" viewBox="0 0 52 68" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M18 4 C36 4 44 18 32 30 C20 42 8 46 18 58 C24 66 38 66 44 62" stroke="#AED6F1" stroke-width="16" stroke-linecap="round"/>
+                <path d="M18 4 C36 4 44 18 32 30 C20 42 8 46 18 58 C24 66 38 66 44 62" stroke="#2E86C1" stroke-width="6" stroke-linecap="round"/>
+                <path d="M34 16 C38 14 42 18 38 21" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 48 C8 46 4 50 8 53" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
             <h3>Instead of Streaks, We Believe in Sustainability</h3>
             <p>Losing a 100-day streak doesn't mean you've failed. We measure progress differently&mdash;through qualitative improvement, not unbroken chains.</p>
           </div>
           <div class="belief-card animate-in">
+            <div class="belief-icon">
+              <!-- Cupped hands cradling a heart: warmth over mechanics -->
+              <svg width="68" height="68" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Heart -->
+                <path d="M36 40 C36 40 18 28 18 18 C18 10 26 6 36 16 C46 6 54 10 54 18 C54 28 36 40 36 40Z" fill="#FF6B6B"/>
+                <!-- Left arm curving up to cradle -->
+                <path d="M6 70 Q6 54 18 46 L28 46" stroke="#F0C095" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <!-- Right arm curving up to cradle -->
+                <path d="M66 70 Q66 54 54 46 L44 46" stroke="#F0C095" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <!-- Palm base connecting the two -->
+                <path d="M20 46 Q36 54 52 46" stroke="#F0C095" stroke-width="10" stroke-linecap="round"/>
+              </svg>
+            </div>
             <h3>Instead of Gamification, We Believe in Genuine Support</h3>
             <p>Points and badges might work for some. But for most, they become another source of pressure. We skip the game mechanics and focus on what actually helps: understanding and adaptation.</p>
           </div>
           <div class="belief-card animate-in">
+            <div class="belief-icon">
+              <!-- Alarm clock with a 4-pane window scene inside instead of numbers -->
+              <svg width="68" height="76" viewBox="0 0 80 88" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Bell left -->
+                <circle cx="22" cy="20" r="8" fill="#2C3E50"/>
+                <line x1="22" y1="28" x2="28" y2="36" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+                <!-- Bell right -->
+                <circle cx="58" cy="20" r="8" fill="#2C3E50"/>
+                <line x1="58" y1="28" x2="52" y2="36" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+                <!-- Clock body -->
+                <circle cx="40" cy="52" r="30" fill="white" stroke="#2C3E50" stroke-width="3"/>
+                <!-- Feet -->
+                <path d="M30 81 L26 87" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+                <path d="M50 81 L54 87" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+                <!-- Window frame inside clock (2x2 panes) -->
+                <rect x="20" y="34" width="40" height="36" rx="3" fill="#EAF4FC" stroke="#2C3E50" stroke-width="2"/>
+                <line x1="40" y1="34" x2="40" y2="70" stroke="#2C3E50" stroke-width="2"/>
+                <line x1="20" y1="52" x2="60" y2="52" stroke="#2C3E50" stroke-width="2"/>
+                <!-- Top-left pane: Sun (morning) -->
+                <circle cx="30" cy="43" r="4" fill="#F4D03F"/>
+                <line x1="30" y1="36" x2="30" y2="35" stroke="#F4D03F" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="30" y1="51" x2="30" y2="50" stroke="#F4D03F" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="23" y1="43" x2="22" y2="43" stroke="#F4D03F" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="37" y1="43" x2="38" y2="43" stroke="#F4D03F" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="25" y1="38" x2="24" y2="37" stroke="#F4D03F" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="35" y1="38" x2="36" y2="37" stroke="#F4D03F" stroke-width="1.5" stroke-linecap="round"/>
+                <!-- Top-right pane: Coffee cup -->
+                <rect x="46" y="38" width="10" height="9" rx="2" fill="#A97240"/>
+                <path d="M56 40 Q60 40 60 44 Q60 46 56 46" stroke="#7D5A2F" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <line x1="45" y1="47" x2="57" y2="47" stroke="#7D5A2F" stroke-width="2" stroke-linecap="round"/>
+                <!-- Bottom-left pane: Two people silhouettes (meeting) -->
+                <circle cx="28" cy="58" r="3" fill="#7F8C8D"/>
+                <path d="M22 68 Q22 62 28 62 Q34 62 34 68" stroke="#7F8C8D" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <circle cx="36" cy="58" r="3" fill="#95A5A6"/>
+                <!-- Bottom-right pane: Crescent moon (evening) -->
+                <path d="M52 56 C48 57 46 61 48 65 C50 69 55 70 59 67 C56 68 52 66 51 62 C50 58 53 55 56 55 C54 55 53 55 52 56Z" fill="#F4D03F"/>
+              </svg>
+            </div>
             <h3>Instead of Generic Reminders, We Believe in Context</h3>
             <p>A reminder at 8 AM doesn't help if you're in a meeting. We learn when you're actually available and show up then.</p>
           </div>
           <div class="belief-card animate-in">
+            <div class="belief-icon">
+              <!-- One lit candle among unlit ones: one thing, done with presence -->
+              <svg width="96" height="64" viewBox="0 0 96 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Candle 1 (unlit) -->
+                <rect x="2" y="26" width="12" height="32" rx="3" fill="#D5D8DC"/>
+                <line x1="8" y1="26" x2="8" y2="21" stroke="#BDC3C7" stroke-width="2" stroke-linecap="round"/>
+                <!-- Candle 2 (unlit) -->
+                <rect x="20" y="22" width="12" height="36" rx="3" fill="#D5D8DC"/>
+                <line x1="26" y1="22" x2="26" y2="17" stroke="#BDC3C7" stroke-width="2" stroke-linecap="round"/>
+                <!-- Candle 3 — LIT, centre -->
+                <rect x="38" y="18" width="20" height="40" rx="3" fill="#FF6B6B"/>
+                <line x1="48" y1="18" x2="48" y2="12" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round"/>
+                <!-- Flame outer glow -->
+                <ellipse cx="48" cy="8" rx="8" ry="10" fill="#FDEBD0" opacity="0.5"/>
+                <!-- Flame body -->
+                <path d="M48 14 C44 14 41 10 43 5 C44 2 46 1 48 3 C50 1 52 2 53 5 C55 10 52 14 48 14Z" fill="#F39C12"/>
+                <!-- Flame inner bright core -->
+                <path d="M48 13 C46 13 45 10 46 7 C47 6 49 7 48 13Z" fill="#FDEBD0"/>
+                <!-- Candle 4 (unlit) -->
+                <rect x="64" y="22" width="12" height="36" rx="3" fill="#D5D8DC"/>
+                <line x1="70" y1="22" x2="70" y2="17" stroke="#BDC3C7" stroke-width="2" stroke-linecap="round"/>
+                <!-- Candle 5 (unlit) -->
+                <rect x="82" y="26" width="12" height="32" rx="3" fill="#D5D8DC"/>
+                <line x1="88" y1="26" x2="88" y2="21" stroke="#BDC3C7" stroke-width="2" stroke-linecap="round"/>
+                <!-- Base line -->
+                <line x1="0" y1="60" x2="96" y2="60" stroke="#D5D8DC" stroke-width="2"/>
+              </svg>
+            </div>
             <h3>Instead of Tracking Everything, We Believe in Focus</h3>
             <p>You don't need to build 17 habits at once. One habit, done well, until it's truly yours.</p>
           </div>

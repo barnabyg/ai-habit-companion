@@ -64,6 +64,29 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.animate-in').forEach((el) => observer.observe(el));
 
+// ===== Active Nav Link (section tracking) =====
+const navLinkEls = document.querySelectorAll('.nav-links a[href^="#"]');
+const sectionLinkMap = {};
+navLinkEls.forEach((link) => {
+  const id = link.getAttribute('href').slice(1);
+  sectionLinkMap[id] = link;
+});
+
+const sectionObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    const link = sectionLinkMap[entry.target.id];
+    if (!link) return;
+    if (entry.isIntersecting) {
+      navLinkEls.forEach((a) => a.classList.remove('active'));
+      link.classList.add('active');
+    }
+  });
+}, { rootMargin: '-35% 0px -60% 0px' });
+
+document.querySelectorAll('section[id]').forEach((section) => {
+  sectionObserver.observe(section);
+});
+
 // ===== Mobile Nav Toggle =====
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
