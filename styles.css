@@ -526,6 +526,61 @@ button {
   margin: 0 auto;
 }
 
+.susan-diptych {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 28px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.susan-state {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 24px;
+  gap: 6px;
+}
+
+.susan-state:first-child {
+  background: #F0F8FF;
+}
+
+.susan-state:last-child {
+  background: #FFF8F0;
+}
+
+.susan-emoji {
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+.susan-state-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #BDC3C7;
+}
+
+.susan-state-sub {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2C3E50;
+}
+
+.susan-state-divider {
+  width: 1px;
+  height: 80px;
+  background: #E8EAEB;
+  flex-shrink: 0;
+}
+
 .susan-card {
   background: #fff;
   border-radius: 16px;
